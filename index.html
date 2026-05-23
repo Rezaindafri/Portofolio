@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rayza Indafri Yahya — UI/UX & Front-End Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo"><span class="logo-dot"></span>Portofolio</a>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about"      class="nav__link">About</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#skills"     class="nav__link">Skills</a></li>
+        <li><a href="#projects"   class="nav__link">Projects</a></li>
+        <li><a href="#contact"    class="nav__link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn--sm nav__cta">Hire Me</a>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__blob hero__blob--1"></div>
+      <div class="hero__blob hero__blob--2"></div>
+      <div class="hero__grid"></div>
+    </div>
+    <div class="hero__inner container">
+      <div class="hero__text" data-aos>
+        <div class="hero__badge"><span class="badge__dot"></span>Available for internship &amp; projects</div>
+        <h1 class="hero__name">Rayza<br/><em>Indafri Yahya</em></h1>
+        <p class="hero__role">UI/UX Designer &amp; Front-End Developer</p>
+        <p class="hero__desc">
+          Final-year IT student at Universitas Sumatera Utara, crafting human-centered
+          digital experiences at the intersection of <strong>design</strong>,
+          <strong>code</strong>, and <strong>interaction</strong>.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View My Work</a>
+          <a href="#contact"  class="btn btn--ghost">Let's Connect</a>
+        </div>
+      </div>
+
+      <div class="hero__visual" data-aos data-aos-delay="150">
+        <div class="profile-frame">
+          <div class="profile-img-wrap">
+            <img src="porto2/image/eree.png" alt="Rayza Indafri Yahya" />
+          </div>
+          <div class="profile-ring profile-ring--1"></div>
+          <div class="profile-ring profile-ring--2"></div>
+        </div>
+        <div class="stat-card stat-card--gpa"  data-aos data-aos-delay="300"><span class="stat-card__icon">🎓</span><div><strong>4.0</strong><span>Current GPA</span></div></div>
+        <div class="stat-card stat-card--org"  data-aos data-aos-delay="400"><span class="stat-card__icon">🏛️</span><div><strong>2+</strong><span>Organizations</span></div></div>
+        <div class="stat-card stat-card--proj" data-aos data-aos-delay="500"><span class="stat-card__icon">🚀</span><div><strong>3+</strong><span>Projects</span></div></div>
+      </div>
+    </div>
+    <div class="hero__scroll"><span>scroll</span><div class="scroll-line"></div></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label" data-aos>About Me</div>
+      <div class="about__grid">
+        <div class="about__left" data-aos>
+          <h2 class="section-title">Designing the future,<br/><em>one interaction at a time.</em></h2>
+          <p class="about__body">
+            I'm a final-year Information Technology student at <strong>Universitas Sumatera Utara</strong>
+            with a deep passion for Interaction Design and Front-End Development. My work lives at the
+            crossroads of technology and human experience — building interfaces that are not just
+            functional, but genuinely delightful to use.
+          </p>
+          <p class="about__body">
+            As coordinator of the Multimedia &amp; Communication division at the IT Student Association,
+            I lead a team responsible for all visual and digital communication. I believe great technology
+            is invisible — it simply feels right.
+          </p>
+          <div class="about__tags">
+            <span class="tag">Human-Centered Design</span>
+            <span class="tag">Interaction Design</span>
+            <span class="tag">Front-End Engineering</span>
+            <span class="tag">AI &amp; ML Enthusiast</span>
+          </div>
+        </div>
+        <div class="about__right" data-aos data-aos-delay="100">
+          <div class="focus-cards">
+            <div class="focus-card">
+              <div class="focus-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+              <h4>UI/UX Design</h4>
+              <p>Elegant, user-centered interfaces grounded in HCI principles and interaction design theory.</p>
+            </div>
+            <div class="focus-card">
+              <div class="focus-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+              <h4>Front-End Dev</h4>
+              <p>Translating design into responsive, performant, and accessible code with modern web technologies.</p>
+            </div>
+            <div class="focus-card">
+              <div class="focus-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg></div>
+              <h4>AI &amp; ML</h4>
+              <p>Exploring intelligent systems and how machine learning can power smarter, more intuitive products.</p>
+            </div>
+            <div class="focus-card">
+              <div class="focus-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+              <h4>Team Leadership</h4>
+              <p>Leading creative teams, managing media strategy, and coordinating digital projects.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience section section--alt" id="experience">
+    <div class="container">
+      <div class="section-label" data-aos>Experience</div>
+      <h2 class="section-title" data-aos>My journey<br/><em>so far</em></h2>
+      <div class="timeline">
+
+        <div class="timeline__item" data-aos>
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <div class="timeline__meta"><span class="timeline__period">Jan 2022 – Present</span><span class="timeline__type">Leadership</span></div>
+            <h3>Head of Multimedia, Communication &amp; Information Division</h3>
+            <p class="timeline__org">Himpunan Mahasiswa Teknologi Informasi USU</p>
+            <ul class="timeline__list">
+              <li>Led the division as coordinator, overseeing visual asset production for major organization events.</li>
+              <li>Managed and coordinated a creative team for all digital communication channels and publications.</li>
+              <li>Developed brand guidelines and ensured visual consistency across all media outputs.</li>
+            </ul>
+            <div class="timeline__tags"><span>Team Leadership</span><span>Visual Design</span><span>Media Strategy</span></div>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-aos>
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <div class="timeline__meta"><span class="timeline__period">Oct 2023 – Present</span><span class="timeline__type">Organization</span></div>
+            <h3>Media, Communication &amp; Information Division Member</h3>
+            <p class="timeline__org">Badan Eksekutif Mahasiswa Fasilkom-TI USU</p>
+            <ul class="timeline__list">
+              <li>Managed costume and event merchandise design including booklets and print collateral.</li>
+              <li>Responsible for event documentation and post-event publication design.</li>
+              <li>Handled social media content for BEM activities and campaigns.</li>
+            </ul>
+            <div class="timeline__tags"><span>Content Creation</span><span>Event Documentation</span><span>Social Media</span></div>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-aos>
+          <div class="timeline__dot timeline__dot--project"></div>
+          <div class="timeline__content">
+            <div class="timeline__meta"><span class="timeline__period">Dec 2025</span><span class="timeline__type">Project</span></div>
+            <h3>Frontend Developer — Find My Stuff Application</h3>
+            <p class="timeline__org">Final Year Project · Universitas Sumatera Utara</p>
+            <ul class="timeline__list">
+              <li>Developed core UI modules (Dashboard &amp; Item List) for efficient item management and search.</li>
+              <li>Optimized UX with interactive, user-friendly item data entry forms.</li>
+              <li>Focused on usability and accessibility in all interaction flows.</li>
+            </ul>
+            <div class="timeline__tags"><span>Front-End Dev</span><span>UX Design</span><span>React</span></div>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-aos>
+          <div class="timeline__dot timeline__dot--edu"></div>
+          <div class="timeline__content">
+            <div class="timeline__meta"><span class="timeline__period">Aug 2023 – Present</span><span class="timeline__type">Education</span></div>
+            <h3>Bachelor of Information Technology</h3>
+            <p class="timeline__org">Universitas Sumatera Utara · GPA: 4.0</p>
+            <ul class="timeline__list">
+              <li>Relevant coursework: Web Programming, Computer Networks, Mobile Programming, Data Structures &amp; Algorithms, Interaction Design (UI/UX).</li>
+              <li>Active in BEM Fasilkom-TI and Himpunan Mahasiswa TI.</li>
+            </ul>
+            <div class="timeline__tags"><span>Web Dev</span><span>Mobile</span><span>UI/UX</span><span>Algorithms</span></div>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-aos>
+          <div class="timeline__dot timeline__dot--edu"></div>
+          <div class="timeline__content">
+            <div class="timeline__meta"><span class="timeline__period">2022 – 2023</span><span class="timeline__type">Leadership</span></div>
+            <h3>Vice Head of IT Division — OSIS</h3>
+            <p class="timeline__org">SMA Negeri Unggul Subulussalam</p>
+            <ul class="timeline__list">
+              <li>Led student council IT division, managing digital communication and school events.</li>
+            </ul>
+            <div class="timeline__tags"><span>Leadership</span><span>IT Management</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label" data-aos>Skills</div>
+      <h2 class="section-title" data-aos>Tools &amp; technologies<br/><em>I work with</em></h2>
+      <div class="skills__grid">
+        <div class="skill-card" data-aos>
+          <div class="skill-card__icon skill-card__icon--ai"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1a7 7 0 0 1-7 7H9a7 7 0 0 1-7-7H1a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"/></svg></div>
+          <h4>Artificial Intelligence</h4>
+          <p>AI concepts, prompt engineering, and AI-powered product development.</p>
+          <div class="skill-bar"><div class="skill-bar__fill" style="--w:70%"></div></div>
+        </div>
+        <div class="skill-card" data-aos data-aos-delay="50">
+          <div class="skill-card__icon skill-card__icon--ml"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div>
+          <h4>Machine Learning</h4>
+          <p>ML fundamentals, data analysis, and model integration into applications.</p>
+          <div class="skill-bar"><div class="skill-bar__fill" style="--w:65%"></div></div>
+        </div>
+        <div class="skill-card" data-aos data-aos-delay="100">
+          <div class="skill-card__icon skill-card__icon--ux"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+          <h4>UI/UX Design</h4>
+          <p>Figma, wireframing, prototyping, design systems, and usability testing.</p>
+          <div class="skill-bar"><div class="skill-bar__fill" style="--w:88%"></div></div>
+        </div>
+        <div class="skill-card" data-aos data-aos-delay="150">
+          <div class="skill-card__icon skill-card__icon--fe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+          <h4>Front-End Development</h4>
+          <p>HTML, CSS, JavaScript, React — responsive and accessible web interfaces.</p>
+          <div class="skill-bar"><div class="skill-bar__fill" style="--w:85%"></div></div>
+        </div>
+        <div class="skill-card" data-aos data-aos-delay="200">
+          <div class="skill-card__icon skill-card__icon--py"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 12h8M12 8v8"/></svg></div>
+          <h4>Python</h4>
+          <p>Scripting, data processing, and backend logic for AI/ML projects.</p>
+          <div class="skill-bar"><div class="skill-bar__fill" style="--w:72%"></div></div>
+        </div>
+        <div class="skill-card" data-aos data-aos-delay="250">
+          <div class="skill-card__icon skill-card__icon--hci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <h4>Interaction Design</h4>
+          <p>HCI principles, cognitive load reduction, microinteractions, and user flow design.</p>
+          <div class="skill-bar"><div class="skill-bar__fill" style="--w:82%"></div></div>
+        </div>
+        <div class="skill-card" data-aos data-aos-delay="300">
+          <div class="skill-card__icon skill-card__icon--lead"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+          <h4>Leadership &amp; Communication</h4>
+          <p>Team coordination, public speaking, media strategy, and stakeholder management.</p>
+          <div class="skill-bar"><div class="skill-bar__fill" style="--w:90%"></div></div>
+        </div>
+        <div class="skill-card" data-aos data-aos-delay="350">
+          <div class="skill-card__icon skill-card__icon--ps"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+          <h4>Problem Solving</h4>
+          <p>Analytical thinking, data structures, algorithms, and creative solution design.</p>
+          <div class="skill-bar"><div class="skill-bar__fill" style="--w:80%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section section--alt" id="projects">
+    <div class="container">
+      <div class="section-label" data-aos>Projects</div>
+      <h2 class="section-title" data-aos>Selected work<br/><em>&amp; case studies</em></h2>
+      <div class="projects__grid">
+
+        <div class="project-card project-card--featured" data-aos>
+          <div class="project-card__img">
+            <div class="project-img-placeholder">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="8" width="40" height="32" rx="3"/><path d="M4 16h40"/><circle cx="10" cy="12" r="1.5" fill="currentColor"/><circle cx="15" cy="12" r="1.5" fill="currentColor"/><circle cx="20" cy="12" r="1.5" fill="currentColor"/><rect x="10" y="22" width="28" height="3" rx="1.5"/><rect x="10" y="29" width="18" height="3" rx="1.5"/></svg>
+              <span>Add Project Screenshot</span>
+            </div>
+            <div class="project-card__overlay"><a href="#" class="btn btn--sm btn--white">View Case Study →</a></div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__meta"><span class="project-year">2025</span><span class="project-type">Frontend · UX</span></div>
+            <h3>Find My Stuff Application</h3>
+            <p>A personal item management app featuring an intuitive dashboard and item list module. Focused on UX optimization with user-friendly interactive forms for efficient item tracking.</p>
+            <div class="project-card__stack"><span>React</span><span>CSS Modules</span><span>JavaScript</span><span>Figma</span></div>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos data-aos-delay="100">
+          <div class="project-card__img">
+            <div class="project-img-placeholder project-img-placeholder--2">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="8" y="4" width="32" height="40" rx="3"/><path d="M14 16h20M14 22h20M14 28h12"/></svg>
+              <span>Add Project Screenshot</span>
+            </div>
+            <div class="project-card__overlay"><a href="#" class="btn btn--sm btn--white">View Project →</a></div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__meta"><span class="project-year">2024</span><span class="project-type">UI Design · Mobile</span></div>
+            <h3>Your Next Project</h3>
+            <p>Add a description of your next project here. Highlight the problem you solved and the impact it created for users.</p>
+            <div class="project-card__stack"><span>Figma</span><span>React Native</span><span>Node.js</span></div>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos data-aos-delay="200">
+          <div class="project-card__img">
+            <div class="project-img-placeholder project-img-placeholder--3">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="24" cy="24" r="18"/><path d="M24 6v36M6 24h36M9.5 9.5l29 29M38.5 9.5l-29 29"/></svg>
+              <span>Add Project Screenshot</span>
+            </div>
+            <div class="project-card__overlay"><a href="#" class="btn btn--sm btn--white">View Project →</a></div>
+          </div>
+          <div class="project-card__body">
+            <div class="project-card__meta"><span class="project-year">2024</span><span class="project-type">AI · Data</span></div>
+            <h3>AI / ML Project</h3>
+            <p>Placeholder for your AI or machine learning project. Describe the model, dataset, and the insights discovered.</p>
+            <div class="project-card__stack"><span>Python</span><span>TensorFlow</span><span>Streamlit</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label" data-aos>Contact</div>
+      <div class="contact__grid">
+        <div class="contact__left" data-aos>
+          <h2 class="section-title">Let's build something<br/><em>great together.</em></h2>
+          <p class="contact__body">Whether it's an internship opportunity, a freelance project, or just a chat about design and technology — my inbox is always open.</p>
+          <a href="mailto:indafrireza@gmail.com" class="btn btn--primary contact__cta">Say Hello ✉️</a>
+        </div>
+        <div class="contact__right" data-aos data-aos-delay="100">
+          <div class="contact-links">
+            <a href="mailto:indafrireza@gmail.com" class="contact-link">
+              <div class="contact-link__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+              <div class="contact-link__text"><span class="contact-link__label">Email</span><strong>indafrireza@gmail.com</strong></div>
+              <svg class="contact-link__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="tel:085270548411" class="contact-link">
+              <div class="contact-link__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.84a16 16 0 0 0 6 6l.98-.98a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.01z"/></svg></div>
+              <div class="contact-link__text"><span class="contact-link__label">Phone</span><strong>085270548411</strong></div>
+              <svg class="contact-link__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/rayza-indafri-yahya-3111903ab/?locale=en-US" target="_blank" rel="noopener" class="contact-link">
+              <div class="contact-link__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></div>
+              <div class="contact-link__text"><span class="contact-link__label">LinkedIn</span><strong>rayza-indafri</strong></div>
+              <svg class="contact-link__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="https://discordapp.com/users/678864298998759444" target="_blank" rel="noopener" class="contact-link">
+              <div class="contact-link__icon"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M20.32 4.37A19.8 19.8 0 0 0 15.36 3l-.24.45c1.75.43 3.43 1.26 4.86 2.42a16.42 16.42 0 0 0-5.84-1.78 16.83 16.83 0 0 0-4.28 0 16.42 16.42 0 0 0-5.84 1.78 13.42 13.42 0 0 1 4.86-2.42L8.64 3a19.8 19.8 0 0 0-4.96 1.37C.54 9.02-.31 13.56.1 18.03A19.94 19.94 0 0 0 6.18 21c.49-.66.92-1.37 1.28-2.1a12.95 12.95 0 0 1-2.02-.97l.48-.37a14.2 14.2 0 0 0 12.16 0l.48.37c-.64.39-1.32.71-2.02.97.36.73.79 1.44 1.28 2.1a19.94 19.94 0 0 0 6.08-2.97c.49-5.18-.84-9.68-3.58-13.66ZM8.02 15.28c-1.17 0-2.13-1.07-2.13-2.39s.94-2.39 2.13-2.39c1.2 0 2.16 1.08 2.13 2.39 0 1.32-.94 2.39-2.13 2.39Zm7.96 0c-1.17 0-2.13-1.07-2.13-2.39s.94-2.39 2.13-2.39c1.2 0 2.16 1.08 2.13 2.39 0 1.32-.94 2.39-2.13 2.39Z"/></svg></div>
+              <div class="contact-link__text"><span class="contact-link__label">Discord</span><strong>Yahya</strong></div>
+              <svg class="contact-link__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="containerfooter">
+      <div class="footer__inner">
+        <span class="nav__logo"><span class="logo-dot"></span>Portofolio</span>
+        <p class="footer__copy">© 2025 Rayza Indafri Yahya · Universitas Sumatera Utara</p>
+        <a href="#hero" class="footer__back">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
